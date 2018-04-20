@@ -8,14 +8,16 @@ public class Solucion {
     
     public boolean problema(String s) {
         String res = "";
-
-        while(res.length() < s.length()){
+        System.out.print(s);
+        System.out.print(" => ");
+        while(res.length() < s.length() - 1 ){
             res += s.charAt(res.length());
             if(s.replaceAll(res, "").trim().isEmpty()){
+                System.out.println("true");
                 return true;
             }
         }
-
+        System.out.println("false");
         return false;
     }
 
