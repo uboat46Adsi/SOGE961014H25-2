@@ -25,16 +25,17 @@ public class TestSolucion {
     }
 
     @Test
-    public void isCorrectBuildTest() {
-        String val="A-->B-->C-->D-->E-->F-->";
+    public void isCorrectProblemaTest() {
+        String val="";
         LOG.info("Ejecutando la prueba");
+
+        val = "gustavogustavogustavo"
         
-        assertTrue("Prn test of '"+val+"':", build(val));
+        assertTrue("Problema test of '"+val+"':", problema(val));
     }
     
-    private boolean build(String res) {
-        System.out.println(p.build().prn());
-        return res == p.build().prn();
+    private boolean problema(String res) {
+        return p.problema(res);
     }
 
     @After
