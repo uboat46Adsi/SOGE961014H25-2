@@ -10,7 +10,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class TestSolucion {
-    private final static Logger LOG = Logger.getLogger(TestPrincipal.class);
+    private final static Logger LOG = Logger.getLogger(TestSolucion.class);
     
     private Solucion p = new Solucion();
 
