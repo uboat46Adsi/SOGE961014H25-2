@@ -6,7 +6,7 @@ package mx.com.itam.adsi.ejercicio;
 */
 public class Solucion {
     
-    public boolean problema(string s) {
+    public boolean problema(String s) {
         String res = "";
 
         while(res.length() < s.length()){
