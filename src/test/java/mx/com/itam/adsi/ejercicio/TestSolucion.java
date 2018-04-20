@@ -29,7 +29,7 @@ public class TestSolucion {
         String val="";
         LOG.info("Ejecutando la prueba");
 
-        val = "gustavogustavogustavo"
+        val = "gustavogustavogustavo";
         
         assertTrue("Problema test of '"+val+"':", problema(val));
     }
