@@ -11,7 +11,7 @@ public class Solucion {
 
         while(res.length() < s.length()){
             res += s.charAt(res.length());
-            if(s.replaceAll(res, "") == ""){
+            if(s.replaceAll(res, "").trim().isEmpty()){
                 return true;
             }
         }
