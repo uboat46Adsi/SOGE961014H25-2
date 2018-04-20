@@ -1,2 +1,2 @@
-# SOGE961014H25-2
-parte dos de examen
+# SOGE961014H25
+examen de adsi
